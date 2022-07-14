@@ -1,6 +1,12 @@
+.mainContainer {
+    overflow-x: hidden;
+
+
+}
+
 .image1 {
     width: 206px;
-    padding: 26px 1144px 0 90px;
+    padding: 26px 1000px 0 90px;
 }
 
 .heading1 {
@@ -9,6 +15,9 @@
     font-size: 16px;
     padding: 0 559px 0 730px;
     margin-top: -63px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+
 
 
 }
@@ -19,6 +28,8 @@
     font-size: 16px;
     padding: 0 377px 0 895px;
     margin-top: -16.5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
 
 }
 
@@ -28,6 +39,8 @@
     font-size: 16px;
     padding: 0 231px 0 1077px;
     margin-top: -16.5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
 
 
 }
@@ -38,6 +51,8 @@
     font-size: 16px;
     padding: 0 50px 0 1223px;
     margin-top: -18.5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
 
 
 }
@@ -45,21 +60,25 @@
 .image2 {
 
     padding-top: 50px;
+
 }
 
 .content1 {
     position: absolute;
     top: 34%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+
 }
 
 .content2 {
     position: absolute;
     top: 45%;
-    left: 57%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 40px;
@@ -70,7 +89,7 @@
 .content3 {
     position: absolute;
     top: 55%;
-    left: 57%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 40px;
@@ -81,18 +100,19 @@
 .content4 {
     position: absolute;
     top: 63%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Montserrat';
     font-size: 20px;
+    font-weight: 500;
 }
 
 .button1 {
-    margin-left: 520px;
+    margin-left: 500px;
     background: #FA4A0C;
     color: white;
-    padding: 16px 50px 16px 50px;
+    padding: 16px 50px 16px 40px;
     font-size: 24px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -104,7 +124,7 @@
 
 .button2 {
 
-    margin-left: 800px;
+    margin-left: 730px;
     padding: 16px 50px 16px 50px;
     font-size: 24px;
     font-family: 'Montserrat';
@@ -118,7 +138,7 @@
 
 .image3 {
 
-    padding-left: 360px;
+    padding-left: 320px;
     margin-top: -380px;
 
 }
@@ -193,7 +213,7 @@
 
 .leftContainer3 {
     width: 50%;
-    margin-top: 600px;
+    margin-top: 570px;
     margin-left: 250px;
 }
 
@@ -220,26 +240,30 @@
 
 .content6 {
     position: absolute;
-    top: 620%;
-    left: 55%;
+    top: 600%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(248, 242, 242);
     font-size: 40px;
     font-weight: 700;
+    font-family: 'Montserrat';
 }
 
 .content7 {
     position: absolute;
-    top: 630%;
-    left: 50%;
+    top: 610%;
+    left: 35%;
+    margin-left: 100px;
     transform: translate(-40%, -50%);
     color: rgb(248, 242, 242);
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat';
 }
 
 .button3 {
-    margin-left: 520px;
+    margin-left: 460px;
     background: #FA4A0C;
     color: white;
     padding: 16px 50px 16px 50px;
@@ -248,18 +272,18 @@
     font-style: normal;
     border-radius: 10px;
     position: absolute;
-    top: 640%;
+    top: 620%;
     border: none;
 }
 
 .button4 {
-    margin-left: 800px;
+    margin-left: 700px;
     padding: 16px 50px 16px 50px;
     font-size: 24px;
     font-family: 'Montserrat';
     font-style: normal;
     position: absolute;
-    top: 640%;
+    top: 620%;
     color: white;
     border: 1px solid white;
     border-radius: 10px;
@@ -267,52 +291,52 @@
 
 .image9 {
     width: 206px;
-    padding: 30px 0 30px 250px;
+    padding: 30px 0 30px 150px;
 }
 
 .image10 {
     margin-left: 550px;
-    position:absolute;
-    top:688%;
+    position: absolute;
+    top: 666%;
 
 }
-.image11{
+
+.image11 {
 
     margin-left: 650px;
-    position:absolute;
-    top:688%;
+    position: absolute;
+    top: 666%;
 }
-.image12{
 
-  margin-left: 750px;
-    position:absolute;
-    top:688%;
+.image12 {
+
+    margin-left: 750px;
+    position: absolute;
+    top: 666%;
 }
-.image13{
+
+.image13 {
     margin-left: 759px;
-    position:absolute;
-    top:689%;
+    position: absolute;
+    top: 667.3%;
 }
-.image14{
+
+.image14 {
 
     margin-left: 774px;
-    position:absolute;
-    top:689%;
+    position: absolute;
+    top: 667%;
 }
 
 
-.copyRight{
-    margin-left:1050px;
+.copyRight {
+    margin-left: 1050px;
     position: absolute;
-    top:688%;
-    font-family:'Roboto';
-    font-style:normal;
-    font-weight:700;
-    font-size:17px;
-    color:#5c5c5c;
+    top: 666%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #5c5c5c;
     letter-spacing: 0.1px;
 }
-
-
-
-
