@@ -2,18 +2,21 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.headerlogo {
+
+.headerLogo {
     width: 206px;
     padding: 26px 1000px 0 90px;
 }
+
 .navItem1 {
     color: orange;
     font-size: 16px;
     padding: 0 559px 0 730px;
-    margin-top: -63px;
+    margin-top: -30px;
     font-family: 'Montserrat';
     font-weight: 600;
 }
+
 .navItem2 {
     color: rgb(10, 10, 10);
     font-size: 16px;
@@ -22,6 +25,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
 }
+
 .navItem3 {
     color: rgb(8, 8, 8);
     font-size: 16px;
@@ -30,6 +34,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
 }
+
 .navItem4 {
     color: rgb(8, 8, 8);
     font-size: 16px;
@@ -38,12 +43,14 @@
     font-family: 'Montserrat';
     font-weight: 600;
 }
+
 .homeContainer {
     background-image: url(/images/image2.png);
     padding-top: 1440px;
     background-repeat: no-repeat;
     margin-top: 50px;
 }
+
 .homeHeading {
     color: #fff;
     font-size: 16px;
@@ -54,6 +61,7 @@
     font-weight: 700;
     font-size: 20px;
 }
+
 .homeHeading1 {
     color: #fff;
     font-size: 16px;
@@ -64,6 +72,7 @@
     font-weight: 700;
     font-size: 58px;
 }
+
 .homeHeading2 {
     color: #fff;
     font-size: 16px;
@@ -74,6 +83,7 @@
     font-weight: 700;
     font-size: 58px;
 }
+
 .homeHeading3 {
     color: #fff;
     font-size: 16px;
@@ -84,6 +94,7 @@
     font-weight: 700;
     font-size: 20px;
 }
+
 .homeButton1 {
     background: #FA4A0C;
     color: white;
@@ -97,6 +108,7 @@
     margin-left: 500px;
     margin-top: 40px;
 }
+
 .homeButton2 {
     padding: 16px 40px 16px 40px;
     font-size: 24px;
@@ -110,6 +122,7 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
 .homeMobileDesign1 {
     margin-left: 320px;
     margin-top: -140px;
@@ -120,26 +133,31 @@
     margin-top: 100px;
     position: absolute;
 }
+
 .horizontalLine {
     border: 2px solid rgb(209, 204, 204);
     width: 70%;
     margin-left: 200px;
     text-align: center;
 }
+
 .procedure {
     text-align: center;
     font-size: 44px;
     font-weight: 600;
 }
+
 .createAccountMobileDesign {
-    width:650px;
+    width: 650px;
     margin-left: 120px;
 }
+
 .createAccountRightContainer {
     width: 50%;
     margin-left: 700px;
     margin-top: -600px;
 }
+
 .createAccountContent1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -148,6 +166,7 @@
     line-height: 36px;
     color: #FA4A0C;
 }
+
 .createAccountContent2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -157,6 +176,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .createAccountContent3 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -166,6 +186,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .createAccountContent4 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -175,6 +196,7 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .createAccountContent5 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -184,18 +206,22 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .shoppingLeftContainer {
     width: 50%;
     margin-top: 570px;
     margin-left: 250px;
 }
+
 .shoppingRightContainer {
     margin-left: 800px;
     margin-top: -530px;
 }
+
 .shoppingMobileDesign {
     width: 650px;
 }
+
 .shoppingContent1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -204,6 +230,7 @@
     line-height: 36px;
     color: #FA4A0C;
 }
+
 .shoppingContent2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -213,6 +240,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .shoppingContent3 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -222,6 +250,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .shoppingContent4 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -231,6 +260,7 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .shoppingContent5 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -240,19 +270,23 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .checkOutMobileDesign {
     width: 650px;
     margin-left: -20px;
     margin-top: -140px;
 }
+
 .checkOutLeftontainer {
     width: 50%;
     margin-left: 120px;
 }
+
 .checkOutRightContainer {
     margin-left: 700px;
     margin-top: -600px;
 }
+
 .checkOutContent1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -261,6 +295,7 @@
     line-height: 36px;
     color: #FA4A0C;
 }
+
 .checkOutContent2 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -270,6 +305,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .checkOutContent3 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -279,6 +315,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
 }
+
 .checkOutContent4 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -288,6 +325,7 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .checkOutContent5 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -297,6 +335,7 @@
     letter-spacing: 0.2px;
     color: #737373;
 }
+
 .downloadContainer {
     background-image: url(/images/image8.png);
     padding-top: 1440px;
@@ -305,6 +344,7 @@
     width: 1440px;
     margin-bottom: -900px;
 }
+
 .downloadHeading {
     color: #fff;
     font-size: 16px;
@@ -315,6 +355,7 @@
     font-weight: 700;
     font-size: 40px;
 }
+
 .downloadHeading1 {
     color: #fff;
     font-size: 16px;
@@ -325,6 +366,7 @@
     font-weight: 500;
     font-size: 24px;
 }
+
 .downloadButton1 {
     background: #FA4A0C;
     color: white;
@@ -338,6 +380,7 @@
     margin-left: 500px;
     margin-top: 40px;
 }
+
 .downloadButton2 {
     padding: 16px 40px 16px 40px;
     font-size: 24px;
@@ -351,6 +394,7 @@
     margin-top: 40px;
     margin-left: 20px;
 }
+
 .footerlogo {
     width: 206px;
     padding: 30px 0 30px 150px;
@@ -359,28 +403,34 @@
 .centerFooter {
     margin-top: -75px;
 }
+
 .twitterIcon {
     margin-left: 550px;
     position: absolute;
 }
+
 .facebookIcon {
     margin-left: 650px;
     position: absolute;
 }
+
 .instagramSquare {
     margin-left: 750px;
 
 }
+
 .instagramCircle {
     margin-left: 759px;
     margin-top: -29px;
     position: absolute;
 }
+
 .instagramFullStop {
     margin-left: 774px;
     margin-top: -30px;
     position: absolute;
 }
+
 .rightFooter {
     margin-left: 1050px;
     position: absolute;
@@ -394,82 +444,75 @@
 }
 
 
-/* mobile version */
-/* @media only screen and (max-width: 390px) {
+/* mobile version  */
+@media only screen and (max-width: 390px) {
 
-    .image1 {
-        width: 120px;
-        margin-left: -320px;
-        margin-top: -30px;
-
-
-    }
-
-    .container1 {
-
+    .header {
         background-image: url(/images/image15.png);
-        margin-left: 350px;
-        background-size: 15px;
+        margin-left: 330px;
         background-repeat: no-repeat;
-        margin-top: 50px;
+        margin-top: 48px;
     }
 
-    .heading1,
-    .heading2,
-    .heading3,
-    .heading4 {
-
-        display: none;
-    }
-
-    .image2 {
-
-        display: none;
-    }
-
-    .content1 {
-
-        margin-left: -205px;
-        margin-top: 70px;
-        font-family: 'Montserrat';
-        font-weight: 700;
-        color: #737373;
-        font-size: 16px;
-
-    }
-
-    .content2 {
-
-        margin-left: -336px;
-        font-size: 30px;
-        font-weight: 700;
-        font-family: 'Montserrat';
-
-    }
-
-    .content3 {
-
+    .headerLogo {
+        width: 104px;
+        height: 51.37px;
+        padding: 17px 0px 0px 25px;
         margin-left: -330px;
-        font-size: 30px;
-        font-weight: 700;
-        font-family: 'Montserrat';
-        text-align: center;
+        margin-top: -48px;
     }
 
-    .content4 {
+    .rightHeader {
 
+        display: none;
+    }
 
-        margin-left: -355px;
-        margin-top: 20px;
-        font-family: 'Montserrat';
-        font-weight: 700;
+    .homeContainer {
+
+        background-image: none;
+        background: #FAFAFA
+    }
+
+    .homeHeading {
         color: #737373;
-        font-size: 24px;
-        text-align: center;
+
     }
 
-    .button1 {
-        margin-left: -250px;
+    .homeHeading1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .homeHeading2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+
+    }
+
+    .homeHeading3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .homeButton1 {
+        margin-left: 50px;
         margin-top: 40px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -480,17 +523,17 @@
         color: white;
         flex-direction: column;
         text-align: center;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         width: 180px;
 
 
     }
 
-    .button2 {
+    .homeButton2 {
 
-        margin-left: -250px;
-        margin-top: 10px;
+        margin-left: -260px;
+        margin-top: 130px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -500,282 +543,78 @@
         color: orangered;
         flex-direction: column;
         text-align: center;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         width: 180px;
         border-radius: 40px;
     }
 
-    .image3 {
+    .homeMobileDesign1 {
+        width: 440px;
+        margin-left: -90px;
+        margin-top: 10px;
 
-        width: 430px;
-        margin-left: -440px;
-        margin-top: -60px;
     }
 
-    .image4 {
-
-        margin-left: -170px;
+    .homeMobileDesign2 {
         width: 200px;
-        margin-top: -600px;
-        margin-bottom: 100px;
-
-    }
-
-    .content5 {
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        text-align: center;
-
+        margin-top: 200px;
+        margin-left: -170px;
     }
 
     .horizontalLine {
-        border: 2px solid rgb(209, 204, 204);
-        margin-left: -200px;
-        text-align: center;
-        margin-bottom: -50px;
-
-    }
-
-    .divItem1 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        text-align: center;
-        margin-top: -700px;
-        color: orangered;
-    }
-
-    .divItem2 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: -15px;
-    }
-
-    .divItem3 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        margin-top: 20px;
-        color: #737373;
-        margin-left: 10px;
-    }
-
-    .image5 {
-
-        
-        margin-left: 30px;
-        margin-top: 280px;
-        width: 350px;
-        
-
-    }
-
-    .divItem13 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        text-align: center;
-        margin-top: 370px;
-        color: orangered;
-    }
-
-    .divItem23 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: -15px;
-    }
-
-    .divItem33 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        margin-top: 20px;
-        color: #737373;
-        margin-left: 10px;
-    }
-
-    .image6 {
-
-        width: 350px;
-        margin-left: 30px;
-        margin-top: -70px;
-       
-    }
-
-    .divItem14 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        text-align: center;
-        margin-top: -700px;
-        color: orangered;
-    }
-
-    .divItem24 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: -15px;
-    }
-
-    .divItem34 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        margin-top: 20px;
-        color: #737373;
-        margin-left: 10px;
-    }
-
-     .image7 {
-
-        width: 350px;
-        margin-left: 30px;
-        margin-top: 140px;
-    }
-
-    .image8 {
-        display: none;
-    }
-
-    .container5 {
-
-        background-color: #252B42;
-        height: 500px;
-
-
-
-    }
-
-    .content6 {
-
-        margin-top: 500px;
-        color: rgb(255, 255, 255);
-        font-size: 40px;
-        font-weight: 700;
-        font-family: 'Montserrat';
-        text-align: center;
-        padding-top: 50px;
-
-    }
-
-    .content7 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        text-align: center;
-        color: #BDBDBD;
-        margin-top: 50px;
-
-    }
-
-    .button3 {
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        border: 2px solid orangered;
-        background: orangered;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        width: 130px;
-        border-radius: 40px;
-        padding: 10px 10px 10px 10px;
-        margin-left: 20px;
-        margin-top: 50px;
-    }
-
-    .button4 {
-
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        border: 2px solid orangered;
-        background: orangered;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        width: 130px;
-        border-radius: 40px;
-        padding: 10px 10px 10px 10px;
-        margin-left: 190px;
-        margin-top: -46px;
-    }
-
-    .image9 {
-        display: none;
-    }
-
-    .image10 {
-
-        margin-left: 20px;
+        width: 100%;
+        margin-left: -10px;
+        border: 2px solid rgb(173, 169, 169);
         margin-top: 100px;
-        width: 70px;
     }
 
-    .image11 {
-        position: absolute;
-        margin-left: 160px;
-        margin-top: -60px;
-        width: 60px;
-    }
-
-    .image12 {
-        position: absolute;
-        margin-left: 300px;
-        margin-top: -60px;
-        width: 60px;
-    }
-
-    .image13 {
-        position: absolute;
-        margin-left: 315px;
-        margin-top: -47px;
-        width: 30px;
-    }
-
-    .image14 {
-        position: absolute;
-        margin-left: 340px;
-        margin-top: -50px;
-        width: 5px;
-    }
-
-    .copyRight {
+    .procedure {
+        margin-top: -250px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
         text-align: center;
-        margin-top: 30px;
-        color: #5C5C5C;
-        font-size: 12px;
+        letter-spacing: 0.1px;
+        color: #000000;
+    }
+
+    .createAccountRightContainer {
+
+        margin-top: -680px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    .createAccountContent1 {
+        margin-top: -1380px;
+        margin-left: -40px;
+        text-align: center;
+    }
+
+    .createAccountContent2 {
+
+        margin-left: -40px;
+        text-align: center;
+    }
+
+    .createAccountMobileDesign {
+
+        margin-left: -80px;
+        margin-top: 700px;
+    }
+
+    .shoppingLeftContainer {
+        margin-left: 100px;
+        margin-top: 680px;
     }
 
 
 
 
 
-} */
+
+
+}
