@@ -446,14 +446,15 @@
 
 /* mobile version  */
 @media only screen and (max-width: 390px) {
-
+    .mainContainer{
+        overflow-y: hidden;
+    }
     .header {
         background-image: url(/images/image15.png);
         margin-left: 330px;
         background-repeat: no-repeat;
         margin-top: 48px;
     }
-
     .headerLogo {
         width: 104px;
         height: 51.37px;
@@ -461,23 +462,16 @@
         margin-left: -330px;
         margin-top: -48px;
     }
-
     .rightHeader {
-
         display: none;
     }
-
     .homeContainer {
-
         background-image: none;
         background: #FAFAFA
     }
-
     .homeHeading {
         color: #737373;
-
     }
-
     .homeHeading1 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -488,7 +482,6 @@
         letter-spacing: 0.2px;
         color: #252B42;
     }
-
     .homeHeading2 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -497,9 +490,7 @@
         text-align: center;
         letter-spacing: 0.2px;
         color: #252B42;
-
     }
-
     .homeHeading3 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -510,7 +501,6 @@
         letter-spacing: 0.2px;
         color: #737373;
     }
-
     .homeButton1 {
         margin-left: 50px;
         margin-top: 40px;
@@ -526,12 +516,8 @@
         padding-top: 20px;
         padding-bottom: 20px;
         width: 180px;
-
-
     }
-
     .homeButton2 {
-
         margin-left: -260px;
         margin-top: 130px;
         font-family: 'Montserrat';
@@ -548,27 +534,23 @@
         width: 180px;
         border-radius: 40px;
     }
-
     .homeMobileDesign1 {
         width: 440px;
         margin-left: -90px;
         margin-top: 10px;
 
     }
-
     .homeMobileDesign2 {
         width: 200px;
         margin-top: 200px;
         margin-left: -170px;
     }
-
     .horizontalLine {
         width: 100%;
         margin-left: -10px;
         border: 2px solid rgb(173, 169, 169);
         margin-top: 100px;
     }
-
     .procedure {
         margin-top: -250px;
         font-family: 'Montserrat';
@@ -580,41 +562,130 @@
         letter-spacing: 0.1px;
         color: #000000;
     }
-
     .createAccountRightContainer {
-
         margin-top: -680px;
         margin-left: 100px;
         text-align: center;
     }
-
     .createAccountContent1 {
         margin-top: -1380px;
         margin-left: -40px;
         text-align: center;
     }
-
     .createAccountContent2 {
-
         margin-left: -40px;
         text-align: center;
     }
-
     .createAccountMobileDesign {
-
         margin-left: -80px;
         margin-top: 700px;
     }
-
     .shoppingLeftContainer {
         margin-left: 100px;
+        text-align: center;
         margin-top: 680px;
     }
-
-
-
-
-
-
-
+    .shoppingMobileDesign{ 
+        margin-left: -880px;
+        margin-top: 400px;
+    }
+    .checkOutMobileDesign{
+        margin-left: -200px;
+        margin-top:100px;
+    }
+    .checkOutRightContainer{
+        margin-left: 10px;
+        text-align: center;
+        margin-top: -1180px;
+    }
+    .downloadContainer{
+        background-image:none;
+        background-color: #252B42;
+        margin-top:700px;
+        width:390px;         
+    }
+    .downloadHeading{
+        margin-left:28px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        text-align: center;
+        letter-spacing: 0.2px;  
+    }
+    .downloadHeading1{
+        margin-left:20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #BDBDBD;
+    }  
+    .downloadButton1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        margin-left:20px;   
+    }
+    .downloadButton2{
+        font-size: 16px;
+        padding:20px 40px 20px 40px;
+    }
+    .footerlogo{
+        display:none;
+    }
+    .twitterIcon{
+        margin-left:90px;
+        margin-top:100px;
+        width:40px; 
+    }
+    .facebookIcon{
+        margin-left:170px;
+        margin-top:100px;
+        width:30px;
+    }
+    .instagramSquare{
+        margin-left:240px;
+        margin-top:100px;
+        position: absolute;
+        width:30px;  
+    }
+    .instagramCircle{
+        margin-left:247px;
+        margin-top:106px;
+    }
+    .instagramFullStop{
+        margin-left:260px;
+        margin-top:105px;
+    }
+   .rightFooter{
+        margin-left:100px;
+        margin-top:150px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        text-align:center;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;      
+   }
+  
+   
 }
+
+
+
+
+
+
+
+
