@@ -446,9 +446,7 @@
 
 /* mobile version  */
 @media only screen and (max-width: 390px) {
-    .mainContainer{
-        overflow-y: hidden;
-    }
+    
     .header {
         background-image: url(/images/image15.png);
         margin-left: 330px;
