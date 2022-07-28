@@ -6,7 +6,7 @@
 
 (3) This website is used to order delicious foods in online.
 
-      ◉First login and create account
+      ◉create account
 
       ◉Then choose delicious foods
 
