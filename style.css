@@ -1,7 +1,3 @@
-.mainContainer {
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
 
 .headerLogo {
     width: 206px;
@@ -11,17 +7,18 @@
 .navItem1 {
     color: orange;
     font-size: 16px;
-    padding: 0 559px 0 730px;
-    margin-top: -30px;
+    text-align: center;
     font-family: 'Montserrat';
     font-weight: 600;
+    margin-top:-30px;
+    margin-left:30px;
 }
-
-.navItem2 {
+ .navItem2 {
     color: rgb(10, 10, 10);
     font-size: 16px;
-    padding: 0 377px 0 895px;
+    text-align: center;
     margin-top: -17px;
+    margin-left:420px;
     font-family: 'Montserrat';
     font-weight: 600;
 }
@@ -29,7 +26,8 @@
 .navItem3 {
     color: rgb(8, 8, 8);
     font-size: 16px;
-    padding: 0 231px 0 1077px;
+    text-align: center;
+    margin-left:810px;
     margin-top: -19.5px;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -38,24 +36,27 @@
 .navItem4 {
     color: rgb(8, 8, 8);
     font-size: 16px;
-    padding: 0 50px 0 1223px;
-    margin-top: -18.5px;
+    text-align: center;
+    margin-top:-18px;
+    margin-left:1190px;
     font-family: 'Montserrat';
     font-weight: 600;
 }
 
-.homeContainer {
+.homeContainer { 
     background-image: url(/images/image2.png);
-    padding-top: 1440px;
+    width:100%;
     background-repeat: no-repeat;
     margin-top: 50px;
-}
+    background-size:100%;
+    
+    } 
 
 .homeHeading {
     color: #fff;
     font-size: 16px;
     text-align: center;
-    margin-top: -1370px;
+    padding-top:80px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -71,7 +72,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 58px;
-}
+} 
 
 .homeHeading2 {
     color: #fff;
@@ -84,8 +85,8 @@
     font-size: 58px;
 }
 
-.homeHeading3 {
-    color: #fff;
+ .homeHeading3 {
+    color: rgb(255, 254, 254);
     font-size: 16px;
     text-align: center;
     margin-top: 40px;
@@ -93,7 +94,12 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-}
+} 
+.homeButtons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+} 
 
 .homeButton1 {
     background: #FA4A0C;
@@ -104,35 +110,39 @@
     font-style: normal;
     border-radius: 30px;
     border: none;
-    display: inline-block;
-    margin-left: 500px;
-    margin-top: 40px;
-}
+    margin-left:100px;
+    margin-top: 20px;  
+} 
 
 .homeButton2 {
     padding: 16px 40px 16px 40px;
     font-size: 24px;
     font-family: 'Montserrat';
     font-style: normal;
-    position: absolute;
     color: white;
     border: 2px solid white;
     border-radius: 30px;
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-left:40px;
+    margin-top: 20px;
+    
+   
 }
 
 .homeMobileDesign1 {
-    margin-left: 320px;
-    margin-top: -140px;
+    margin-top:-150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .homeMobileDesign2 {
-    margin-left: -240px;
-    margin-top: 100px;
     position: absolute;
+    margin-left:54%;
+    margin-top:-650px;
+   
 }
+    
+
 
 .horizontalLine {
     border: 2px solid rgb(209, 204, 204);
@@ -145,17 +155,18 @@
     text-align: center;
     font-size: 44px;
     font-weight: 600;
+    padding-top:30px;
 }
 
 .createAccountMobileDesign {
-    width: 650px;
-    margin-left: 120px;
-}
+    width: 500px;
+    margin-left:15%;
+} 
 
 .createAccountRightContainer {
     width: 50%;
-    margin-left: 700px;
-    margin-top: -600px;
+    margin-left:50%;
+    margin-top: -500px;
 }
 
 .createAccountContent1 {
@@ -209,17 +220,17 @@
 
 .shoppingLeftContainer {
     width: 50%;
-    margin-top: 570px;
-    margin-left: 250px;
+    margin-top:470px;
+    margin-left: 20%;
 }
 
 .shoppingRightContainer {
-    margin-left: 800px;
-    margin-top: -530px;
+    margin-left:60%;
+    margin-top: -430px;
 }
 
 .shoppingMobileDesign {
-    width: 650px;
+    width: 500px;
 }
 
 .shoppingContent1 {
@@ -272,19 +283,19 @@
 }
 
 .checkOutMobileDesign {
-    width: 650px;
-    margin-left: -20px;
-    margin-top: -140px;
+    width: 500px;
+    margin-left: 27%;
+    margin-top: 20px;
 }
 
 .checkOutLeftontainer {
     width: 50%;
-    margin-left: 120px;
+    
 }
 
 .checkOutRightContainer {
-    margin-left: 700px;
-    margin-top: -600px;
+    margin-left:50%;
+    margin-top: -500px;
 }
 
 .checkOutContent1 {
@@ -326,7 +337,7 @@
     color: #737373;
 }
 
-.checkOutContent5 {
+ .checkOutContent5 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -334,18 +345,19 @@
     line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
-}
+} 
 
-.downloadContainer {
+ .downloadContainer {
     background-image: url(/images/image8.png);
-    padding-top: 1440px;
+    padding-top: 540px;
     background-repeat: repeat-x;
     margin-top: 300px;
-    width: 1440px;
-    margin-bottom: -900px;
-}
+    width: 100%;
+    background-size:100%;
+    
+} 
 
-.downloadHeading {
+ .downloadHeading {
     color: #fff;
     font-size: 16px;
     text-align: center;
@@ -354,7 +366,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-}
+    margin-top:-400px;
+} 
 
 .downloadHeading1 {
     color: #fff;
@@ -365,9 +378,14 @@
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+} 
+.downloadButtons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-.downloadButton1 {
+ .downloadButton1 {
     background: #FA4A0C;
     color: white;
     padding: 19px 40px 19px 40px;
@@ -377,63 +395,69 @@
     border-radius: 10px;
     border: none;
     display: inline-block;
-    margin-left: 500px;
     margin-top: 40px;
-}
+    margin-left:50px ;
+
+} 
 
 .downloadButton2 {
     padding: 16px 40px 16px 40px;
     font-size: 24px;
     font-family: 'Montserrat';
     font-style: normal;
-    position: absolute;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
     display: inline-block;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left:40px;
+} 
+.footer{
+    margin-top:-10px;
+    display: inline;
+    
 }
-
-.footerlogo {
+ .footerlogo {
     width: 206px;
     padding: 30px 0 30px 150px;
-}
+} 
 
-.centerFooter {
+ .centerFooter {
     margin-top: -75px;
-}
+    
+} 
 
-.twitterIcon {
-    margin-left: 550px;
+ .twitterIcon {
+    margin-left:40%;
     position: absolute;
-}
+    
+} 
 
 .facebookIcon {
-    margin-left: 650px;
+    margin-left:48%;
     position: absolute;
-}
+} 
 
 .instagramSquare {
-    margin-left: 750px;
+    margin-left:56.7%;
 
-}
-
-.instagramCircle {
-    margin-left: 759px;
+} 
+ .instagramCircle {
+    margin-left: 56.7%;
     margin-top: -29px;
-    position: absolute;
+    position: absolute; 
+   
 }
 
 .instagramFullStop {
-    margin-left: 774px;
+    margin-left: 57.7%;
     margin-top: -30px;
     position: absolute;
+   
 }
 
 .rightFooter {
-    margin-left: 1050px;
-    position: absolute;
+
     margin-top: -30px;
     font-family: 'Roboto';
     font-style: normal;
@@ -441,12 +465,13 @@
     font-size: 17px;
     color: #5c5c5c;
     letter-spacing: 0.1px;
-}
+    text-align: right;
+    margin-right:20px;
+} 
 
 
 /* mobile version  */
-@media only screen and (max-width: 390px) {
-    
+ @media only screen and (max-width: 390px) {
     .header {
         background-image: url(/images/image15.png);
         margin-left: 330px;
@@ -499,9 +524,12 @@
         letter-spacing: 0.2px;
         color: #737373;
     }
+    .buttons{
+        display: block;
+    }
     .homeButton1 {
-        margin-left: 50px;
-        margin-top: 40px;
+        margin-left:10px;
+        margin-top: -90px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -509,15 +537,14 @@
         border-radius: 40px;
         background: #FA4A0C;
         color: white;
-        flex-direction: column;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
         width: 180px;
     }
     .homeButton2 {
-        margin-left: -260px;
-        margin-top: 130px;
+        margin-left:-260px;
+        margin-top: 100px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -525,7 +552,6 @@
         border: 2px solid orangered;
         background: #fdfbfa;
         color: orangered;
-        flex-direction: column;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -535,13 +561,13 @@
     .homeMobileDesign1 {
         width: 440px;
         margin-left: -90px;
-        margin-top: 10px;
+        margin-top: -100px;
 
     }
     .homeMobileDesign2 {
         width: 200px;
-        margin-top: 200px;
-        margin-left: -170px;
+        margin-top: -500px;
+        margin-left: 170px;
     }
     .horizontalLine {
         width: 100%;
@@ -550,7 +576,7 @@
         margin-top: 100px;
     }
     .procedure {
-        margin-top: -250px;
+        margin-top: -150px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
@@ -561,7 +587,7 @@
         color: #000000;
     }
     .createAccountRightContainer {
-        margin-top: -680px;
+        margin-top: 200px;
         margin-left: 100px;
         text-align: center;
     }
@@ -575,32 +601,33 @@
         text-align: center;
     }
     .createAccountMobileDesign {
-        margin-left: -80px;
-        margin-top: 700px;
+        margin-left: -35px;
+        margin-top: 600px;
     }
     .shoppingLeftContainer {
         margin-left: 100px;
         text-align: center;
-        margin-top: 680px;
+        margin-top: 580px;
     }
     .shoppingMobileDesign{ 
-        margin-left: -880px;
-        margin-top: 400px;
+        margin-left: -255px;
+        margin-top: 340px;
     }
     .checkOutMobileDesign{
-        margin-left: -200px;
-        margin-top:100px;
+        margin-left:-40px;
+        margin-top:300px;
     }
     .checkOutRightContainer{
         margin-left: 10px;
         text-align: center;
-        margin-top: -1180px;
+        margin-top: -1000px;
     }
     .downloadContainer{
         background-image:none;
         background-color: #252B42;
-        margin-top:700px;
-        width:390px;         
+        margin-top:600px;
+        padding-top:500px;
+              
     }
     .downloadHeading{
         margin-left:28px;
@@ -611,6 +638,7 @@
         line-height: 57px;
         text-align: center;
         letter-spacing: 0.2px;  
+        margin-top:-420px;
     }
     .downloadHeading1{
         margin-left:20px;
@@ -631,42 +659,46 @@
         line-height: 28px;
         letter-spacing: 0.2px;
         color: #FFFFFF;
-        margin-left:20px;   
+        margin-left:10px;   
     }
     .downloadButton2{
         font-size: 16px;
         padding:20px 40px 20px 40px;
+        margin-left:20px;
     }
     .footerlogo{
         display:none;
     }
+    .footer{
+        margin-top:100px;
+    }
     .twitterIcon{
         margin-left:90px;
-        margin-top:100px;
+        margin-top:-50px;
         width:40px; 
     }
     .facebookIcon{
         margin-left:170px;
-        margin-top:100px;
+        margin-top:-50px;
         width:30px;
     }
     .instagramSquare{
         margin-left:240px;
-        margin-top:100px;
+        margin-top:-50px;
         position: absolute;
         width:30px;  
     }
     .instagramCircle{
         margin-left:247px;
-        margin-top:106px;
+        margin-top:-44px;
     }
     .instagramFullStop{
         margin-left:260px;
-        margin-top:105px;
+        margin-top:-46px;
     }
    .rightFooter{
-        margin-left:100px;
-        margin-top:150px;
+        margin-left:-10px;
+        margin-top:200px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -678,7 +710,7 @@
    }
   
    
-}
+} 
 
 
 
